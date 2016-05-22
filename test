@@ -1,0 +1,16 @@
+#!/bin/zsh
+rm -rf ~/.antigen
+curl -qL https://raw.githubusercontent.com/zsh-users/antigen/master/antigen.zsh > antigen.zsh
+
+export ANTIBODY_HOME="$(mktemp -d)"
+antibody home
+
+echo "Testing antibody..."
+for i in $(seq 1 50); do
+  /usr/bin/time ./test_antibody
+done
+echo -e "\n\n\n-----------\n\n\n"
+echo "Testing antigen..."
+for i in $(seq 1 50); do
+  /usr/bin/time ./test_antigen
+done

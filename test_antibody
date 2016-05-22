@@ -1,0 +1,3 @@
+#!/bin/zsh
+source <(antibody init)
+antibody bundle < bundles.txt

@@ -1,0 +1,21 @@
+# comments should be ignored
+bbenne10/goenv
+bric3/nice-exit-code
+caarlos0/zsh-add-upstream
+caarlos0/zsh-git-fetch-merge
+caarlos0/zsh-git-sync
+caarlos0/zsh-mkc
+git://github.com/peterhurford/git-it-on.zsh
+git@github.com:caarlos0/jvm.git
+https://github.com/caarlos0/zsh-open-pr
+junegunn/fzf
+mafredri/zsh-async
+mollifier/cd-gitroot
+oz/safe-paste # comment appended to the line
+shengyou/robo-zsh-plugin
+ssh://github.com/djui/alias-tips
+supercrabtree/k
+Tarrasch/zsh-autoenv
+Tarrasch/zsh-bd
+Tarrasch/zsh-colors
+zsh-users/zsh-completions
