@@ -12,8 +12,8 @@ junegunn/fzf
 mafredri/zsh-async
 mollifier/cd-gitroot
 oz/safe-paste # comment appended to the line
-shengyou/robo-zsh-plugin
-ssh://github.com/djui/alias-tips
+caarlos0/ports
+ssh://git@github.com/djui/alias-tips
 supercrabtree/k
 Tarrasch/zsh-autoenv
 Tarrasch/zsh-bd
