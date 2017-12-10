@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/bin/zsh -f
 source antigen.zsh
 cat bundles.txt | while read -r bundle; do
   antigen bundle $bundle > /dev/null 2>&1
